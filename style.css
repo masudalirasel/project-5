@@ -1,0 +1,430 @@
+body{
+	font-family: 'Nunito', sans-serif;
+}
+ p{
+	color:gray;
+	font-size:16px;
+	line-height:27.2px;
+	vertical-align:baseline;
+	font-weight:400;
+	letter-spacing:normal	
+}
+h1{
+	color:#000000;
+	font-size:40px;
+	line-height:48px;
+	font-weight:900;
+}
+h2 {
+	color: #000000;
+	font-size: 40px;
+	line-height: 48px;
+	font-weight: 700;
+}
+.child_wrapper_container{
+	width:1140px;
+	margin:auto;
+}
+/* ata amar 1 nmbr kaj  */
+.menu_header{
+	align-items: center;
+	display:flex;
+	background-attachment:fixed;
+
+}
+.profile{
+	width:30%;
+	
+}
+
+
+
+.menu ul{
+	display: flex;
+	padding:20px 0px;
+	justify-content:center;
+	margin-left:200px;
+}
+.menu ul li{
+	list-style-type:none;
+	position:relative;
+	margin-left:10px;
+}
+.menu  ul li a{
+	color:black;
+	font-size:14px;
+	margin: 15px;
+	text-decoration:none;
+}
+.menu ul li a:hover{
+	background:blue;
+	display:imine block;
+}
+/* ata amar 2 nmbr kaj  */
+.Main_container{
+	display:flex;
+}
+.text_div{
+	width:50%;
+	margin:auto;
+}
+.text_div p{
+	width:90%;
+}
+.text_div h1{
+	color:#000000;
+	background-color:#ffffff;
+	font-size:56px;
+	line-height:67.2px;
+	letter-spacing:normal;
+	font-weight:900;
+}
+.Mbutton a{
+	background:#4285F4;
+	padding:15px 30px;
+	color:#fff;
+	border-radius:28px;
+	text-decoration:none;
+	margin-top:20px;
+}
+.image_div{
+	width:50%;
+}
+
+/* ata amar 3 nmbr kaj  */
+
+.child_container1{
+	display:flex;
+	margin-top:100px;
+}
+
+.unit{
+	width:300px;
+	height:170px;
+	padding:40px;
+	background:#f1f1f1;
+	text-align:center;
+	border-radius:5px;
+	margin:10px; 
+	position:relative;
+}
+.unit p{
+	color:gray;
+	font-size:16px;
+	vertical-align:baseline;
+	font-weight:300;
+	letter-spacing:normal;
+
+}
+
+.surcle{
+	position:absolute;
+	background:#4285F4;
+	width:80px;
+	height:80px;
+	border-radius:50%;
+	margin:auto;
+	margin-left:25%;
+	margin-top:-85px;
+}
+.surcle:hover{
+	background:white;
+	
+}
+.unit a{
+text-decoration:none;	
+}
+
+/* ata amar 4 nmbr kaj  */
+.main_container4{
+	display:flex;
+	margin-top:230px;
+}
+.image_logo img{
+	width:700px;
+}
+.text_content{
+	width:60%;
+	margin-left:50px;
+}
+
+.text_content p{
+
+	color:#6C757D;
+	color:RGB(108, 117, 125);
+	background-color:#000000;
+	background-color:RGBA(0, 0, 0, 0);
+	font-size:16px;
+	margin:0px 0px 48px;
+	letter-spacing:normal;
+	line-height:27.2px;
+	font-weight:300;
+
+
+}
+/*id card */
+
+.id_card{
+	height:170px;
+	border:1px solid #dfe4ea;
+	padding:20px;
+	border-radius:5px;
+	position:relative;
+}
+.flex_id{
+	display:flex;
+}
+.profile_pic img{
+	width:55px;
+	margin:10px;
+	border-radius:50%;
+	margin-top:20px;
+}
+.profile_name{
+	line-height:10px;
+	margin-top:10px;
+}
+
+.id_card:before{
+	content:"";
+	position:absolute;
+	background:blue;
+	width:3%;
+	height:100%;
+	margin-left:-30px;
+	margin-top:-18px;
+	border-radius:2px;
+}
+/*ata amr 5 nmbr kaj */
+
+.about_us{
+	background:#f1f2f6;
+}
+
+.main_container5{
+	margin-top:130px;
+	
+    height:700px;
+}
+.flex_body{
+	display:flex;
+}
+.aboout_profile img{
+	width:550px;
+}
+.about_text{
+	margin-top:-50px;
+	margin-left:150px;
+}
+.about_text h2{
+	color:#000000;
+	font-size:28px;
+	line-height:33.6px;
+	font-weight:700;
+
+
+}
+.before{
+	display:flex;
+	color:gray;
+}
+.before p{
+	line-height:0px;
+}
+.before img{
+	height:20px;
+	margin-top:10px;
+}
+
+/*ata amr 6 nmbr kaj */
+
+.Our_team_child{
+	display:flex;
+	margin-top:100px;
+}
+.team_member{
+	width:33%;
+	margin:10px;
+}
+.team_member img{
+	width:100%;
+	z-index:0;
+}
+.team_member_hover{
+	background:blue;
+	width:100%;
+	height:40px;
+	margin-top:-50px;
+	z-index:0;
+	visibility:hidden;
+	position:relative;
+}
+.team_member_hover:hover team_member_hover{
+	position:absolute;
+	visibility:visible;
+	z-index:99;
+}
+/*ata amr 7 nmbr kaj */
+.Testimonials{
+	background:#f1f2f6;	
+}
+.main_container7{
+	height:550px;
+	margin-top:100px;
+	text-align:center;	
+}
+.child_conteiner7{
+	padding:50px;
+}
+.child_conteiner7 p{
+	color:gray;
+	font-size:24px;
+	line-height:40.8px;
+	vertical-align:baseline;
+	font-weight:400;
+}
+.child_conteiner7 img{
+	width:120px;
+	border-radius:50%;
+}
+/*ata amr 8 nmbr kaj */
+.child_container8{
+	display:flex;
+
+}
+.blog_content{
+	width:33%;
+	margin:15px;
+}
+.blog_content img{
+	width:100%;
+}
+.blog_content h3{
+	color: #000000;
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 500;
+}
+.date_time{
+	display:flex;
+	color:gray;
+
+}
+.date{
+	display:flex;	
+	margin-top:15px;
+}
+.date li{
+	margin-left:20px;	
+}
+/*ata amr 9 nmbr kaj */
+.main_container9{
+	margin-bottom:100px;
+	width:100%;
+	height:1100px;
+	background:gray;
+	color:white;
+	background:url("newfolder/image12.jpg");
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+}
+.from_tabil h2{
+	color:#000000;
+	font-size:24px;
+	line-height:28.8px;
+	font-weight:500;
+	
+}
+.from_tabil{
+	margin:auto;
+	background:white;
+	width:600px;
+	height:750px;
+	justify-content:center;
+	color:black;
+	padding:50px;
+}
+.from_flex{
+	display:flex;
+
+}
+.flex_left{
+	margin-left:30px;
+	
+}
+.flname input{
+	width:95%;
+	height:50px;
+	margin:0px 10px;
+}
+.flname{
+	flex:0 0 50%;
+}
+.Eml input{
+	width:100%;
+	height:50px;	
+	
+}
+.sb input{
+	margin-top:10px;
+	width:100%;
+	height:50px;	
+}
+.ms textarea{
+	margin-top:10px;
+	width:100%;
+	height:200px;
+	border:1px solid #4285F4;
+}
+.last_submit input{
+	border:none;
+	padding:15px 30px;
+	border-radius:28px;
+	background-color:#4285F4;
+}
+/*ata mar last kaj */
+
+.floter{
+	text-align:center;
+
+}
+.floter img{
+	margin:15px;
+}
+.masud{
+	display:flex;
+	justify-content:center;
+	margin-top:50px;
+	margin-bottom:30px;
+}
+.masud img{
+	width:20px;
+	height:20px;
+	margin-top:20px;
+}
+
+
+/* overly CSS */
+
+
+.imgeas_area{
+	position: relative;
+	overflow: hidden;
+}
+.overly_area{
+	position: absolute;
+	bottom: -75px;
+	left: 0;
+	background-color: #4285F4;
+	text-align: center;
+	font-size: 18px;
+	color: #FFF;
+	width: 100%;
+	transition: 0.3s;
+}
+.imgeas_area:hover .overly_area{
+	bottom: 0;
+	transition: 0.3s;
+}
+
